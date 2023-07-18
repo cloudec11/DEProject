@@ -59,16 +59,16 @@ body {
     max-width: 725px;
     margin: 0px auto;
     position: absolute;
-    top: 1200px;
-    left: 200px;
+    top: 75rem;
+    left: 4rem;
 }
 #wrapper2{
     width: 100%;
     max-width: 725px;
     margin: 0px auto;
     position: absolute;
-    top: 2000px;
-    left: 750px;
+    top: 125rem;
+    left: 60rem;
 }
 .gears{
   width:48%;
@@ -213,4 +213,17 @@ body {
 /* gears end */
 #bot{
   margin-top: 6rem;
+}
+img{
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
 }
