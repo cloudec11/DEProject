@@ -1,0 +1,36 @@
+.font-m {
+    font-family: "Poppins", sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+#banner-top-heading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+}
+#banner-wrap{
+    position: relative;
+    padding: 100px;
+}
+#banner-img{
+    opacity: 0.6;
+    position: absolute;
+    left: 0;
+    top: 0;
+    filter: brightness(60%);
+    width: 100%;
+    z-index: -1;
+}
+#banner-text{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    position: relative;
+    color: white;
+}
+#energy{
+    color: greenyellow;
+}
+#brand{
+    position: absolute;
+    left: 25px;
+}
