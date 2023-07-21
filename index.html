@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="bs/css/bootstrap.css" />
     <link rel="stylesheet" href="stylesheets/home.css" />
+    <link rel="stylesheet" href="stylesheets/gears.css" />
     <link
       rel="shortcut icon"
       href="https://png.pngtree.com/png-clipart/20190924/original/pngtree-lightning-button-icon-design-png-image_4816773.jpg"
@@ -39,7 +40,14 @@
             class="collapse navbar-collapse justify-content-center"
             id="navbarNav"
           >
-            <a href="#" class="navbar-brand" id="brand">Compost Can</a>
+            <!-- visibile logo brand thing only on large -->
+            <a
+              href="#"
+              class="navbar-brand d-none d-xl-block d-lg-block"
+              id="brand"
+              >Compost Can</a
+            >
+
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -61,9 +69,16 @@
         <div id="banner-text">
           <h3 id="banner-text">
             <div class="container font-m d-flex justify-content-center my-5">
-              <h1 id="banner-top-heading">
+              <h1 id="banner-top-heading" class="d-none d-lg-block d-xl-block">
                 Introducing A New Form of
                 <span id="energy"
+                  >Energy<i class="fa-solid fa-bolt fa-beat-fade"></i>
+                </span>
+              </h1>
+
+              <h1 id="ban-top-mob" class="d-lg-none d-xl-none">
+                Introducing A New Form of
+                <span id="energy-mob"
                   >Energy<i class="fa-solid fa-bolt fa-beat-fade"></i>
                 </span>
               </h1>
@@ -78,10 +93,10 @@
       <!-- start under banner -->
       <div class="container">
         <div class="row">
-          <div class="col">
-            <img class="img-fluid" src="assets/power.jpg" alt="" />
+          <div class="col-md">
+            <img class="img-fluid pb-3" src="assets/power.jpg" alt="" />
           </div>
-          <div class="col">
+          <div class="col-md">
             <p class="desc">OUR MISSION</p>
             <h2>Commitment to sustainable power</h2>
             <p class="font">
@@ -98,7 +113,7 @@
       <!-- start mid page -->
       <div class="container">
         <div class="row">
-          <div class="col">
+          <div class="col-md">
             <p class="desc text-right">REVOLUTIONARY</p>
             <h2 class="text-right">Innovative Design</h2>
             <p class="font text-right">
@@ -107,14 +122,14 @@
               illo quidem dicta?
             </p>
           </div>
-          <div class="col">
+          <div class="col-md">
             <img class="img-fluid" src="assets/light.jpg" alt="" />
           </div>
         </div>
       </div>
       <!-- end mid page -->
     </section>
-    <!-- testing animation -->
+    <!-- gear animation -->
     <div id="wrapper">
       <div class="gears" id="one-gear">
         <div class="gears-container">
@@ -134,10 +149,10 @@
     <!-- start 3rd one -->
     <div class="container" id="bot">
       <div class="row">
-        <div class="col">
-          <img class="img-fluid" src="assets/grid.jpg" alt="" />
+        <div class="col-md">
+          <img class="img-fluid pb-3" src="assets/grid.jpg" alt="" />
         </div>
-        <div class="col">
+        <div class="col-md">
           <p class="desc">A VISION</p>
           <h2>Accesscibility</h2>
           <p class="font">
